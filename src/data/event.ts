@@ -19,6 +19,33 @@ import { EventData } from "@/types/event";
  */
 export const totalEvents: readonly EventData[] = [
   {
+    slug: "reddev",
+    title: "RedDev",
+    shortDescription: "A 4-week startup and product-building marathon transforming ideas into real products.",
+    description:
+      "A 4-week startup and product-building marathon where students, developers, and innovators transform ideas into real products. Participants progress through idea validation, business planning, product design, and MVP development while receiving mentorship from industry experts, attending specialized sessions, and competing for prizes. The journey culminates in an offline Grand Final where the top teams pitch their solutions to a panel of judges.",
+    state: "closed",
+    link: "/events/reddev",
+    images: [
+      {
+        src: "/images/RedDev.png",
+        alt: "RedDev event poster featuring speakers, workshops, and participants at Mansoura University",
+        width: 630,
+        height: 600,
+      },
+    ],
+    dateTime: "2026-07-01T09:00:00",
+    location: "Mansoura University & Online",
+    statsRibbon: [
+      { icon: "calendar", label: "Date", value: "July – August 2026", ariaLabel: "Event date" },
+      { icon: "map-pin", label: "Location", value: "Mansoura University & Online", ariaLabel: "Event location" },
+    ],
+    meta: [
+      { icon: "calendar", label: "Date", value: "July – August 2026" },
+      { icon: "map-pin", label: "Location", value: "Mansoura University & Online" },
+    ],
+  },
+  {
     slug: "redtalks",
     title: "REDTalks",
     shortDescription:

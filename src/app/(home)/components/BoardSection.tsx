@@ -4,6 +4,7 @@ import { memo } from 'react';
 
 import {
   highBoard,
+  technicalManagers,
   nonTechnicalBoard,
   technicalBoard,
 } from "@/data/board";
@@ -116,6 +117,12 @@ function BoardSection() {
           title="High Board"
           id="board-high"
           members={highBoard}
+          centered
+        />
+        <BoardCarousel
+          title="Technical Managers"
+          id="board-technical-managers"
+          members={technicalManagers}
           centered
         />
         <BoardCarousel

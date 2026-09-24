@@ -88,7 +88,9 @@ function Header() {
         {/* Desktop CTA */}
         {/* Desktop-only "Join Us" button */}
         <Link
-          href="/register"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSepoDP633G_d_GfCXsGE3FeTUdFHLXqVoxq3Y8Rw1ZAxRCWsw/viewform?usp=header"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-flex px-12 focus-ring btn hover:px-11"
         >
           Join Us
@@ -153,7 +155,9 @@ function Header() {
             {/* Mobile "Join Us" CTA */}
             <li>
               <Link
-                href="/register"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSepoDP633G_d_GfCXsGE3FeTUdFHLXqVoxq3Y8Rw1ZAxRCWsw/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-4 px-16 py-1 rounded-full btn focus-ring"
                 onClick={() => setOpen(false)}
               >
