@@ -1,52 +1,36 @@
 import { EventData } from '@/types/event';
 
-/**
- * upcomingEvent
- *
- * Data for the currently featured / spotlight upcoming event.
- *
- * Main Purpose:
- *   • Attract attention and drive registrations for the most important upcoming event
- *   • Provide quick, engaging overview (countdown, CTA, progress bar)
- *   • Serve as primary call-to-action on homepage / events section
- *
- * Key Characteristics:
- *   • Conforms to EventData type for consistency
- *   • Contains promotional extras (registration progress, badge)
- *   • Ready for dynamic replacement via API/CMS in the future
- */
 export const upcomingEvent: EventData = {
-  slug: "reddev",
+  slug: "coming-soon",
 
-  title: "RedDev",
+  title: "Coming Soon",
 
   description:
-    "A 4-week startup and product-building marathon where students, developers, and innovators transform ideas into real products. Participants progress through idea validation, business planning, product design, and MVP development while receiving mentorship from industry experts, attending specialized sessions, and competing for prizes. The journey culminates in an offline Grand Final where the top teams pitch their solutions to a panel of judges.",
+    "We're working on something exciting! Our next event is on its way. Stay tuned and follow our social media channels to be the first to know when registration opens.",
 
-  state: "open",
+  state: "soon",
 
-  link: "/events/upcoming",
+  link: "#",
 
   images: [
     {
-      src: "/images/RedDev.png",
-      alt: "RedDev event poster featuring speakers, workshops, and participants at Mansoura University",
+      src: "/images/Coming soon.jpg",   // ← keep using RedDev image as visual, or replace with a "coming soon" image
+      alt: "MEGA Team upcoming event coming soon",
       width: 630,
       height: 600,
     },
   ],
 
-  /** ISO date used for countdown & SEO — display range is in meta */
-  dateTime: "2026-07-01T09:00:00",
+  dateTime: "2027-01-01T00:00:00",
 
   meta: [
-    { icon: "calendar", label: "Date", value: "2026-07 - 2026-08" },
-    { icon: "map-pin", label: "Location", value: "Mansoura University & Online" },
+    { icon: "calendar", label: "Date", value: "Coming Soon" },
+    { icon: "map-pin", label: "Location", value: "Mansoura University" },
   ],
 
   cta: {
-    label: "Register Now",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSe3nfNuNOI1McKSNCpdHbYpk7FUoumFSPcGjDEHDmrxJmq5lA/viewform",
-    ariaLabel: "Register now for RedDev event",
+    label: "Follow Us",
+    href: "https://www.facebook.com/MegaTeamMU",   // ← put your real social link
+    ariaLabel: "Follow MEGA Team on social media for event updates",
   },
 } as const;

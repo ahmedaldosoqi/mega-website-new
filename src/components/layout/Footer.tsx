@@ -141,8 +141,8 @@ function Footer() {
               <li className="flex items-center gap-3 hover:text-white transition-colors">
                 {/* Phone icon, hidden from screen readers */}
                 <PhoneIcon className="h-5 w-5" aria-hidden="true" />
-                <a href="tel:+201212043552" className="focus-ring">
-                  (+20) 121 204 3552
+                <a href="tel:+201043652108" className="focus-ring">
+                  (+20) 104 365 2108
                 </a>
               </li>
               {/* Email contact item */}

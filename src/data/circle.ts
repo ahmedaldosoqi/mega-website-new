@@ -20,7 +20,7 @@ const ROADMAP_REPO_BASE =
  *   • Ready for filtering (technical vs non-technical) & dynamic routing
  */
 export const circles: CircleData[] = [
-{
+  {
     slug: 'hr',
     title: 'HR',
     shortDescription: 'Your First Step Into the Team’s Core. Focuses on member support, growth, communication, and healthy team environment.',
@@ -249,5 +249,21 @@ export const circles: CircleData[] = [
     type: 'technical',
     link: '/circles/business-analysis',
     roadmapLink: `${ROADMAP_REPO_BASE}/Business-Analysis`,
+  },
+  {
+    slug: 'cybersecurity',
+    title: 'Cybersecurity',
+    shortDescription: 'Protecting systems, networks, and data from digital attacks. Learn ethical hacking, security analysis, and defense techniques.',
+    longDescription:
+      `Cybersecurity Circle – Defending the Digital World\n\n` +
+      `In a world where everything is connected, security is everything. The Cybersecurity Circle equips members with the knowledge and skills to protect systems, networks, and data from digital threats.\n\n` +
+      `You will learn how attackers think and how to defend against them, covering topics like ethical hacking, network security, cryptography, vulnerability assessment, and incident response.\n\n` +
+      `Key Topics:\n• Ethical Hacking & Penetration Testing\n• Network Security\n• Cryptography\n• Vulnerability Assessment\n• Incident Response\n\n` +
+      `Required Skills:\n• Logical thinking and problem-solving\n• Curiosity and continuous learning\n• Attention to detail\n• Basic understanding of networks and operating systems\n\n` +
+      `If you're passionate about protecting systems and want to make the digital world safer, the Cybersecurity Circle is your place.`,
+    imageSrc: '/circles/cybersecurity.png',
+    type: 'technical',
+    link: '/circles/cybersecurity',
+    roadmapLink: `${ROADMAP_REPO_BASE}/Cybersecurity`,
   },
 ] as const;
