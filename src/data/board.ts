@@ -161,7 +161,7 @@ export const nonTechnicalBoard: BoardMember[] = [
     id: "rd-abdelrahman-hesham",
     name: "Abdelrahman Hesham",
     position: "R&D Vice",
-    image: "/Board photos/Non-Tech/R&D/Vice R&D - Abdelrahman Hesham .jpeg",
+    image: "/Board photos/Non-Tech/R&D/Vice R&D - Abdelrahman Hesham .jpg",
     linkedin: "https://www.linkedin.com/in/ahmed-aldosoqi-a2220833b/",
   },
   {
