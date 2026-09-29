@@ -26,45 +26,46 @@ export const highBoard: BoardMember[] = [
     name: "Bashayer Khalifa",
     position: "Vice Leader",
     image: "/Board photos/High board/Vice Leader - Bashayer khalefa_.jpg",
-    linkedin: "https://www.linkedin.com/in/eman-salem-9794b5295/",
+    linkedin: "https://www.linkedin.com/in/bashayer-khalefa-72b41533b",
   },
   {
     id: "high-Ahmed Youssef",
     name: "Ahmed Youssef",
     position: "Leader",
     image: "/Board photos/Non-Tech/PR/Vice PR - Ahmed Youssef.jpeg",
-    linkedin: "https://www.linkedin.com/in/omar-magdy-86b19b2b2/",
+    linkedin: "https://www.linkedin.com/in/ahmed-yusef-b383bb336",
   },
   {
     id: "high-Malk Salem",
     name: "Malk Salem",
     position: "Vice Leader",
     image: "/Board photos/High board/Vice Leader - Malak sleem .jpg",
-    linkedin: "https://www.linkedin.com/in/malk-elsayed-b0a1a7375/",
+    linkedin: "https://www.linkedin.com/in/malk-alsayed-b0a1a7375",
   },
 ];
 /** Technical Managers — . */
 export const technicalManagers: BoardMember[] = [
-  {
-    id: "tm-ahmed-aldosoqi",
-    name: "Ahmed Aldosoqi",
-    position: "Technical Manager",
-    image: "/Board photos/Technical Managers/Head TM - Ahmed Aldosoqi .jpg",
-    linkedin: "https://www.linkedin.com/in/THEIR_LINKEDIN/",
-  },
+
   {
     id: "tm-farah-mahmoud",
     name: "Farah Mahmoud",
     position: "Vice Technical Manager",
     image: "/Board photos/Technical Managers/Vice TM - Farah Mahmoud .jpg",
-    linkedin: "https://www.linkedin.com/in/THEIR_LINKEDIN/",
+    linkedin: "https://www.linkedin.com/in/farah-mahmoud-b67530336?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+  },
+  {
+    id: "tm-ahmed-aldosoqi",
+    name: "Ahmed Aldosoqi",
+    position: "Technical Manager",
+    image: "/Board photos/Technical Managers/Head TM - Ahmed Aldosoqi .jpg",
+    linkedin: "https://www.linkedin.com/in/ahmed-aldosoqi-a2220833b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     id: "tm-abdullah-ahmed",
     name: "Abdullah Ahmed",
     position: "Vice Technical Manager",
     image: "/Board photos/Technical Managers/Vice TM - Abdullah Ahmed .jpg",
-    linkedin: "https://www.linkedin.com/in/THEIR_LINKEDIN/",
+    linkedin: "https://www.linkedin.com/in/abdullah-ahmed-salama4002/",
   },
 ];
 /** Non-technical board — circles ordered: HR, PR, Media, R&D, PM, EO. */
@@ -75,28 +76,28 @@ export const nonTechnicalBoard: BoardMember[] = [
     name: "Banan Magdy",
     position: "HR Head",
     image: "/Board photos/Non-Tech/HR/Head HR - Banan magdy.jpg",
-    linkedin: "https://www.linkedin.com/in/mariam-rashad/",
+    linkedin: "http://www.linkedin.com/in/banan-magdy",
   },
   {
     id: "hr-rodina-khaled",
     name: "Rodina Khaled",
     position: "HR Vice",
     image: "/Board photos/Non-Tech/HR/Vice HR - Rodina Khaled .jpg",
-    linkedin: "https://www.linkedin.com/in/amira-mahmoud-annaggar/",
+    linkedin: "http://www.linkedin.com/in/rodina-khaled-4612ba378",
   },
   {
     id: "hr-mariam-ibrahim",
     name: "Mariam Ibrahim",
     position: "HR Vice",
     image: "/Board photos/Non-Tech/HR/Vice HR - Mariam Ibrahim_.jpg",
-    linkedin: "https://www.linkedin.com/in/shahd-orapy-76451a341/",
+    linkedin: "http://www.linkedin.com/in/maryam-ibrahim-9a13963a1",
   },
   {
     id: "hr-eman-abdullah",
     name: "Eman Abdullah",
     position: "HR Vice",
     image: "/Board photos/Non-Tech/HR/Vice HR - Eman Abdullah .jpg",
-    linkedin: "https://www.linkedin.com/in/shahd-orapy-76451a341/",
+    linkedin: "https://www.linkedin.com/in/eman-albaghdady-softwareengineer?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   // PR
   {
@@ -104,21 +105,21 @@ export const nonTechnicalBoard: BoardMember[] = [
     name: "Zainab Ibrahim",
     position: "PR Head",
     image: "/Board photos/Non-Tech/PR/Head PR - Zainab Ibrahim.png",
-    linkedin: "https://www.linkedin.com/in/farah-mahmoud-b67530336/",
+    linkedin: "https://www.linkedin.com/in/zeinab-ibrahim-alm?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     id: "pr-jana-tarek",
     name: "Jana Tarek",
     position: "PR Vice",
     image: "/Board photos/Non-Tech/PR/Vice PR - Jana tarek.jpg",
-    linkedin: "https://www.linkedin.com/in/ahmed-yusef-b383bb336/",
+    linkedin: "https://www.linkedin.com/in/janatarek15?trk=contact-info",
   },
   {
     id: "pr-walaa-ghazy",
     name: "Walaa Ghazy",
     position: "PR Vice",
     image: "/Board photos/Non-Tech/PR/Vice PR - Walaa Ghazy.jpg",
-    linkedin: "https://www.linkedin.com/in/toqa-shamaa-102533336/",
+    linkedin: "https://www.linkedin.com/in/walaa-ghazy?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   // Media
   {
@@ -126,28 +127,35 @@ export const nonTechnicalBoard: BoardMember[] = [
     name: "Maden Ahmed",
     position: "Media Head",
     image: "/Board photos/Non-Tech/Media/Head Media - Maden Ahmed .jpg",
-    linkedin: "https://www.linkedin.com/in/ammar-yasser-36664233b/",
+    linkedin: "",
   },
   {
     id: "media-mohamed-elsead",
     name: "Mohamed elsead",
     position: "Media Vice",
     image: "/Board photos/Non-Tech/Media/Vice Media -Mohamed elsead .jpg",
-    linkedin: "https://www.linkedin.com/in/bashayer-khalefa-72b41533b/",
+    linkedin: "http://www.linkedin.com/in/mohameddelsaed",
   },
   {
     id: "media-roqia-elsaeed",
     name: "Roqia Elsaeed",
     position: "Media Vice",
     image: "/Board photos/Non-Tech/Media/Vice Media - Roqia Elsaeed .jpg",
-    linkedin: "https://www.linkedin.com/in/bashayer-khalefa-72b41533b/",
+    linkedin: "https://www.linkedin.com/in/roqia-shabana-94bb133a9?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+  },
+  {
+    id: "media-adham-sabry",
+    name: "Adham Sabry",
+    position: "Media Vice",
+    image: "/Board photos/Non-Tech/Media/Vice Media -Adham Sabry.jpg",
+    linkedin: "https://www.linkedin.com/in/adham-sabry-08b18733b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     id: "media-alaa-eldesoky",
     name: "Alaa eldesoky",
     position: "Media Vice",
     image: "/Board photos/Non-Tech/Media/Vice Media - Alaa eldesoky .jpg",
-    linkedin: "https://www.linkedin.com/in/bashayer-khalefa-72b41533b/",
+    linkedin: "http://www.linkedin.com/in/alaa-eldsoky-483687388",
   },
   // R&D
   {
@@ -155,21 +163,21 @@ export const nonTechnicalBoard: BoardMember[] = [
     name: "Ahmed Elenany",
     position: "R&D Head",
     image: "/Board photos/Non-Tech/R&D/Head R&D - Ahmed Elenany .jpg",
-    linkedin: "https://www.linkedin.com/in/alia-harb-ba660133b/",
+    linkedin: "https://www.linkedin.com/in/ahmed-elenany-284128385?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
   },
   {
     id: "rd-abdelrahman-hesham",
     name: "Abdelrahman Hesham",
     position: "R&D Vice",
     image: "/Board photos/Non-Tech/R&D/Vice R&D - Abdelrahman Hesham .jpg",
-    linkedin: "https://www.linkedin.com/in/ahmed-aldosoqi-a2220833b/",
+    linkedin: "https://www.linkedin.com/in/abdulrahman-hesham-alawady/",
   },
   {
     id: "rd-jad-mohamed",
     name: "Jad Mohamed",
     position: "R&D Vice",
     image: "/Board photos/Non-Tech/R&D/Vice R&D - Jad Mohamed .jpg",
-    linkedin: "https://www.linkedin.com/in/shams-mohammed-085570330/",
+    linkedin: "https://www.linkedin.com/in/uijaad/",
   },
   // PM
   {
@@ -177,21 +185,21 @@ export const nonTechnicalBoard: BoardMember[] = [
     name: "Mohamed Hazem",
     position: "PM Head",
     image: "/Board photos/Non-Tech/PM/Head PM - Mohamed Hazem.jpg",
-    linkedin: "https://www.linkedin.com/in/mariam-salem-uix/",
+    linkedin: "https://www.linkedin.com/in/mohamed-hazem7",
   },
   {
     id: "pm-nora-ahmed",
     name: "Nora Ahmed",
     position: "PM Vice",
     image: "/Board photos/Non-Tech/PM/Vice PM - Nora Ahmed .jpg",
-    linkedin: "https://www.linkedin.com/in/islam-mohamed-5562472b2/",
+    linkedin: "https://www.linkedin.com/in/noura-ahmed-frontend?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
   },
   {
     id: "pm-menna-ibrahim",
     name: "Menna Ibrahim",
     position: "PM Vice",
     image: "/Board photos/Non-Tech/PM/Vice PM - Menna Ibrahim .JPG",
-    linkedin: "https://www.linkedin.com/in/mennadahab/",
+    linkedin: "https://www.linkedin.com/in/menna-ibrahim-b29727276/",
   },
   // EO
   {
@@ -199,21 +207,21 @@ export const nonTechnicalBoard: BoardMember[] = [
     name: "Hossam Mahmoud",
     position: "EO Head",
     image: "/Board photos/Non-Tech/EO/Head EO - Hossam Mahmoud .jpg",
-    linkedin: "https://www.linkedin.com/in/fares-alrafey-97094433b/",
+    linkedin: "http://www.linkedin.com/in/hossam-shouman-02a167352",
   },
   {
     id: "eo-mariam-hassan",
     name: "Mariam Hassan",
     position: "EO Vice",
     image: "/Board photos/Non-Tech/EO/Vice EO - Mariam Hassan.jpg",
-    linkedin: "https://www.linkedin.com/in/malk-alsayed-b0a1a7375/",
+    linkedin: "https://www.linkedin.com/in/mariumhassanmoawed",
   },
   {
     id: "eo-ossama-mohamed",
     name: "Ossama Mohamed",
     position: "EO Vice",
     image: "/Board photos/Non-Tech/EO/Vice EO - Ossama Mohamed.jpg",
-    linkedin: "https://www.linkedin.com/in/mohamed-emad-954769377",
+    linkedin: "https://www.linkedin.com/in/osama-gharba/",
   },
 ];
 
@@ -225,21 +233,21 @@ export const technicalBoard: BoardMember[] = [
     name: "Abdulrahman Marouf",
     position: "Frontend Mentor",
     image: "/Board photos/Tech/Frontend/Frontend Mentor - Abdulrahman marouf.jpg",
-    linkedin: "https://www.linkedin.com/in/mahmoud-ramadan21/",
+    linkedin: "https://www.linkedin.com/in/abdelrahman-ma3rouf/",
   },
   {
     id: "frontend-ali-ibrahim",
     name: "Ali Ibrahim",
     position: "Frontend Co Mentor",
     image: "/Board photos/Tech/Frontend/Frontend Co Mentor - Ali Ibrahim front .jpg",
-    linkedin: "https://www.linkedin.com/in/sarah-essam-175018377/",
+    linkedin: "https://www.linkedin.com/in/aliiiebrahim/",
   },
   {
     id: "frontend-loai-wael",
     name: "Loai Wael",
     position: "Frontend Co Mentor",
     image: "/Board photos/Tech/Frontend/Frontend Co Mentor - Loai wael .jpg",
-    linkedin: "https://www.linkedin.com/in/abdelrahman-ma3rouf/",
+    linkedin: "",
   },
   // Backend
   {
@@ -247,21 +255,21 @@ export const technicalBoard: BoardMember[] = [
     name: "Alia Harb",
     position: "Backend Mentor",
     image: "/Board photos/Tech/Backend/Backend Mentor - Alia harb .jpg",
-    linkedin: "https://www.linkedin.com/in/a7medmo25/?locale=en",
+    linkedin: "",
   },
   {
     id: "backend-islam- Khaled",
     name: "Islam Khaled",
     position: "Backend Co Mentor",
     image: "/Board photos/Tech/Backend/BackendCo Mentor - Islam Khaled .jpg",
-    linkedin: "https://www.linkedin.com/in/mostafa-labib-0xfff/",
+    linkedin: "https://www.linkedin.com/in/islamkhaledfouad/",
   },
   {
     id: "backend-rawda-abdelgalil",
     name: "Rawda Abdelgalil",
     position: "Backend Co Mentor",
     image: "/Board photos/Tech/Backend/BackendCo Mentor - Rawda Abdelgalila.jpg",
-    linkedin: "https://www.linkedin.com/in/mostafa-labib-0xfff/",
+    linkedin: "https://www.linkedin.com/in/rawda-eweda-b1b5ab376/",
   },
   // UI/UX
   {
@@ -269,21 +277,21 @@ export const technicalBoard: BoardMember[] = [
     name: "Hossam Shehata",
     position: "UI/UX Mentor",
     image: "/Board photos/Tech/UI-UX/UIUX Mentor Hossam Shehata.jpg",
-    linkedin: "https://www.linkedin.com/in/ranim-tamer-uix/",
+    linkedin: "",
   },
   {
     id: "uiux-ahmed-khedr",
     name: "Ahmed Khedr",
     position: "UI/UX Co Mentor",
     image: "/Board photos/Tech/UI-UX/UIUX Mentor Ahmed khedr .jpg",
-    linkedin: "https://www.linkedin.com/in/ranim-tamer-uix/",
+    linkedin: "",
   },
   {
     id: "uiux-youmna-khaled",
     name: "Youmna Khaled",
     position: "UI/UX Co Mentor",
     image: "/Board photos/Tech/UI-UX/UIUX Co Mentor Youmna Khaled.jpeg",
-    linkedin: "https://www.linkedin.com/in/ranim-tamer-uix/",
+    linkedin: "https://www.linkedin.com/in/yomnakhaleduiux/",
   },
   // Business
   {
@@ -291,7 +299,7 @@ export const technicalBoard: BoardMember[] = [
     name: "Seif Elboghdady",
     position: "Business Mentor",
     image: "/Board photos/Tech/Business/Business Mentor Seif elboghdady .jpg",
-    linkedin: "https://www.linkedin.com/in/salma-shaheen-9a5b84231/",
+    linkedin: "",
   },
 
   // CS
@@ -300,13 +308,13 @@ export const technicalBoard: BoardMember[] = [
     name: "Hasan Atwah",
     position: "CS Mentor",
     image: "/Board photos/Tech/CS/CS Mentor Hasan atwah .jpg",
-    linkedin: "https://www.linkedin.com/in/manar-elhabbal7/",
+    linkedin: "",
   }, {
     id: "cs-hanin-sakr",
     name: "Hanin Sakr",
     position: "CS Co Mentor",
     image: "/Board photos/Tech/CS/CS Co Mentor Hanin sakr .jpg",
-    linkedin: "https://www.linkedin.com/in/manar-elhabbal7/",
+    linkedin: "http://www.linkedin.com/in/hanin-sakr-a96483330",
   },
   // DataScience
   {
@@ -314,21 +322,21 @@ export const technicalBoard: BoardMember[] = [
     name: "Ibrahim Fekry",
     position: "Data Science Mentor",
     image: "/Board photos/Tech/DataScience/DS Mentor Ibrahim fekry data .png",
-    linkedin: "https://www.linkedin.com/in/nourhan-tarek-7994a32bb/",
+    linkedin: "",
   },
   {
     id: "ds-rokaia-rezk",
     name: "Rokaia Rezk",
     position: "Data Science Co Mentor",
     image: "/Board photos/Tech/DataScience/DS Co Mentor Rokaia rezk .jpg",
-    linkedin: "https://www.linkedin.com/in/nourhan-tarek-7994a32bb/",
+    linkedin: "https://www.linkedin.com/in/rokaia-rezk-0761052bb",
   },
   {
     id: "ds-mohamed-tamer",
     name: "Mohamed Tamer",
     position: "Data Science Co Mentor",
     image: "/Board photos/Tech/DataScience/DS Co Mentor Mohamed tamer .jpg",
-    linkedin: "https://www.linkedin.com/in/nourhan-tarek-7994a32bb/",
+    linkedin: "https://www.linkedin.com/in/mohamed-tamer--/",
   },
   // Flutter
   {
@@ -336,21 +344,21 @@ export const technicalBoard: BoardMember[] = [
     name: "Abdallah Yasser",
     position: "Flutter Mentor",
     image: "/Board photos/Tech/Flutter/Flutter Mentor Abdallah Yasser .jpg",
-    linkedin: "https://www.linkedin.com/in/romisaafadel/",
+    linkedin: "https://www.linkedin.com/in/abdullah-yasser-06a021325",
   },
   {
     id: "flutter-toqa-shamaa",
     name: "Toqa Shamaa",
     position: "Flutter Co Mentor",
     image: "/Board photos/Tech/Flutter/Flutter Co Mentor Toqa shamaa .jpg",
-    linkedin: "https://www.linkedin.com/in/abdelrahman-ayman-elassy/",
+    linkedin: "https://www.linkedin.com/in/toqa-shamaa-102533336?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     id: "flutter-salma-elmaghawry",
     name: "Salma Elmaghawry",
     position: "Flutter Co Mentor",
     image: "/Board photos/Tech/Flutter/Flutter Co Mentor Salma Elmaghawry .jpg",
-    linkedin: "https://www.linkedin.com/in/abdullah-yasser-06a021325/",
+    linkedin: "https://www.linkedin.com/in/salma-elmaghawry/",
   },
   // Cyber
   {
@@ -358,27 +366,27 @@ export const technicalBoard: BoardMember[] = [
     name: "Shams Mohamed",
     position: "Cybersecurity Mentor",
     image: "/Board photos/Tech/Cybersecurity/Cyber  Mentor Shams Mohamed .jpg",
-    linkedin: "https://www.linkedin.com/in/romisaafadel/",
+    linkedin: "",
   },
   {
     id: "cybersecurity-ahmed-ashraf",
     name: "Ahmed Ashraf",
     position: "Cybersecurity Co Mentor",
     image: "/Board photos/Tech/Cybersecurity/Cyber Co Mentor -  Ahmed Ashraf .png",
-    linkedin: "https://www.linkedin.com/in/abdelrahman-ayman-elassy/",
+    linkedin: "https://www.linkedin.com/in/ahmed-ashraf-shaban",
   },
   {
     id: "cybersecurity-osama-mohamed",
     name: "Osama Mohamed",
     position: "Cybersecurity Co Mentor",
     image: "/Board photos/Tech/Cybersecurity/Cyber Co Mentor Osama Mohamed.jpg",
-    linkedin: "https://www.linkedin.com/in/abdullah-yasser-06a021325/",
+    linkedin: "https://www.linkedin.com/in/osama-gharba/",
   },
   {
     id: "cybersecurity-omar-abdulghani",
     name: "Omar Abdulghani",
     position: "Cybersecurity Co Mentor",
     image: "/Board photos/Tech/Cybersecurity/Cyber Co Mentor Omar Abdulghani .png",
-    linkedin: "https://www.linkedin.com/in/abdullah-yasser-06a021325/",
+    linkedin: "https://www.linkedin.com/in/omar-abdulghani3",
   },
 ];
